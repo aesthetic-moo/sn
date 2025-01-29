@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="compte.css">
+    <script src="compte.js"></script>
+</head>
+<body>
+    <header>
+       
+        <div class="logo">
+            <a href="index.html.html"><p>AESTHETIC_MOO</p></a>
+            
+        </div>
+            
+      
+        <ul class="menu2">
+            
+				
+				<li style="font-size: large;">
+				<a href="categories.html">Catégories</a>
+					</li>
+
+				<li style="font-size: large;">
+					<a href="Panier.html">Panier</a>
+					
+				</li>
+
+                <li style="font-size: large;">
+                    <a href="Apprendre.html">Apprendre</a>
+                    
+                </li>
+
+				<li style="font-size: large;">
+					<a href="Compte.html">Compte</a>
+					
+				</li>
+				
+				<li style="font-size: large;">
+					<a href= "https://instagram.com/_aesthetic_moo" class="elementor-button elementor-button-link elementor-size-md elementor-animation-shrink">Contactez-nous</a>
+						<span class="elementor-button-content-wrapper">
+							<p style="font-size: large; color: #ddc3a5"></p>
+							<FRAMESETROWS(ou COLS)=arg [border=N]>
+								
+				
+                            <li style="font-size: large;">
+                                <a href="deconnection.php">Se déconnecter</a>
+                                          
+                               </li>
+          
+                               <li style="font-size: large;">
+                                <a href="Profile.html">Gérer mon profil 👤</a>
+                                
+                            </li>
+					
+        </ul> 
+        
+    </header> 
+<br>
+
+
+
+<div class="container">
+    <div class="box form-box">
+
+
+       
+
+
+        <header>Inscription</header>
+        <form action="" method="post"></form>
+            <div class="field input">
+                <label for="Username">Prénom et Nom</label>
+               <br> <input type="text" name="Username" id="Username"autocomplete="off" required>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <form>
+              <p>Adresse e-mail</p>
+              <input id='email'>
+              <button type='submit' id='validate'>Valide</button>
+            </form>
+            <h2 id='result'></h2>
+            <script>
+                function validateEmail(email) {
+  var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  return re.test(email);
+}
+function validate() {
+  var $result = $("#result");
+  var email = $("#email").val();
+  $result.text("");
+
+  if (validateEmail(email)) {
+    $result.text(email + " is valid");
+    $result.css("color", "blue");
+  } else {
+    $result.text(email + " is not valid");
+    $result.css("color", "red");
+  }
+  return false;
+}
+$("#validate").on("click", validate);
+            </script>
+
+            <div class="field input">
+                <label for="age">age</label>
+               <br> <input type="number" name="age" id="age" autocomplete="off"required>
+            </div>
+
+            <div class="field input">
+                <label for="password">Mot de passe</label>
+               <br> <input type="password" name="password" id="password" autocomplete="off"required><br>
+               <br><p style="font-size: 10px;">Veuillez saisir un mot de passe (au moins 8 caractères, un caractère spécial, un chiffre, une majuscule, une minuscule)</p>
+            </div>
+
+           
+            <br>
+            <div class="field ">
+              <a href="Bienvenue.html">  <input type="submit" class="btn" name="submit" value="Inscription" required></a>
+             
+            </div>
+            <br>
+
+
+            
+
+        <div class="links">
+            Gagnez du temps à votre prochaine commande dans notre boutique en ligne.<br>
+            <br>
+            
+ 
+        </div>
+
+       
+    </div>
+
+</div>
+<br>
+<br>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

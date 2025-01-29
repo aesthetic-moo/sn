@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100;200;400;500 & display=swap');
+
+*{
+    margin: 1px;
+    padding: -20px;
+    box-sizing: border-box;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+html{
+
+    background-color: #7d6e63 ;
+   
+    
+
+}
+
+.main-box {
+    background: #b7aaa1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px;
+    position: fixed;
+}
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-decoration: 0;
+   
+    background:#2e261f;
+    box-shadow: 0 6px 30px rgba(58, 27, 6, 0.429);
+    border: 1px solid #b4a191;
+    cursor: pointer;
+  }
+  
+  .btn:hover, .btn:focus, .btn:active, .btn:visited {
+      transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+      animation: gelatine 0.5s 1;
+        background: #b4a191;
+        color: #2e261f;
+        
+  }
+  
+  @keyframes gelatine {
+    
+    0%, 100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+  
+  video{
+    height: 60vh;
+    margin: 90px;
+    padding-top: 15px;
+  }
+

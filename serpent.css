@@ -1,0 +1,76 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background-color: #073037;
+
+}
+  
+  canvas {
+    box-shadow: #19c3e1 15px 10px 45px;
+  }
+  #game-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+     
+}
+
+#color-options {
+  margin-right: 20px; /* Marge entre les boutons et le canvas */
+}
+
+#color-options label {
+  margin-right: 5px;
+}
+
+#color-options input[type="radio"] {
+  margin-right: 10px;
+}
+  
+.btn {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px 15px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  text-decoration: 0;
+ 
+  background:#0da4bf;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(6, 34, 46);
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn:visited {
+    transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    animation: gelatine 0.5s 1;
+      background: rgb(6, 34, 46);
+      color: #0da4bf;
+      
+}
+
+@keyframes gelatine {
+  
+  0%, 100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+

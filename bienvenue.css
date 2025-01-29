@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100;200;400;500 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+ 
+}
+section{
+    margin-top: 50px;
+
+}
+body{
+    position: relative;
+    
+   
+
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    background-color: #ddc3a5;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20 50px;
+    background: #ebdac7;
+    box-shadow: #000000;
+   
+}
+.menu2{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.menu2 li{
+    list-style: none;
+    padding: 0 20px;
+}
+.menu2 li a {
+    color: #000000;
+    font-size: 20px;
+    }
+    
+    .title{
+    margin-bottom: 50%;
+    }
+    .logo a{
+        color: #000000;
+        padding: 0px 20px;
+        border: 1px solid #000000;
+        position: absolute;
+        font-weight: 100;
+        top: 10px;
+        left: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 30px;
+        }
+        .logo a:hover{
+            background: #301c00;
+            color: #ddc3a5;
+            }
+    ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 18px;
+    }
+    ul li a{
+    text-decoration: none;
+    color: #0c0c0c;
+    padding-left: 10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,9s ease;
+    }
+    ul li  a:hover{
+        background: #201e20;
+        color: #ddc3a5;
+        }
+        
+        .elementor-button-text {
+        background-color:#ddc3a5;
+        border-radius: 0%;
+        }
+.elementor-button-text:hover{
+    background-color: #201e20;
+  }
+
+
+  :root {
+    /* COLORS */
+    --white: #e9e9e9;
+    --gray: #775621;
+    --blue: #d4be9b;
+    
+  
+    /* RADII */
+    --button-radius: 0.7rem;
+  
+    /* SIZES */
+    --max-width: 758px;
+    --max-height: 420px;
+  
+    font-size: 16px;
+     }
+  
+ body {
+    align-items: center;
+    background-color: var(--white);
+    background-color: #ebdac7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    height: 110vh;
+    place-items: center;
+  }
+  
+.btn {
+  background-color: var(--blue);
+  background-image: linear-gradient(90deg, var(--blue) 0%, var(--lightblue) 74%);
+  border-radius: 20px;
+  border: 1px solid var(--blue);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding: 0.9rem 4rem;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+  
+  .form > .btn {
+    margin-top: 1.5rem;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  
+  .input {
+    background-color: #e5d4c2;
+    border: 20px;
+    padding: 0.5rem 0.7rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    width: 90%;
+}
+  /* affaire bobu ak main box leu dalle*/
+
+   
+  .right-links a{
+    padding: 0 10px;
+
+  }
+  .main-box {
+    background: #fff7e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box {
+    margin-bottom: 40px;
+    border: 12px;
+}
+
+@media only screen and (max-width:840px){
+    .main-box .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .top .box {
+        margin: 10px 10px;
+    }
+    .bottom {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,230 @@
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  header{
+    height: 100vh;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100;200;400;500 & display=swap');
+
+*{
+  border: #ffffff;
+  border-radius: 10px; 
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  outline: none;
+  text-decoration: rgb(74, 40, 3);
+  background-color: #b3ad9d;
+  
+  
+
+}
+
+
+
+•{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
+}
+a{
+text-decoration: 0;
+}
+html {
+font-size: 70%;
+scroll-behavior: smooth;
+scroll-padding-top: 9px;
+}
+::-webkit-scrollbar{
+width: 8px;
+}
+::-webkit-scrollbar-thumb {
+background-color: #f5f5f5;
+}
+
+section{
+margin: 50px;
+}
+.grandimage{
+width: 100%;
+
+}
+
+header{
+
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 50px;
+padding: 0 5%;
+box-shadow: 0.5rem 1rem rgb(0, 0, 0);
+}
+
+.menu  {
+display: flex;
+align-items: center;
+}
+.menu li {
+margin: 0  15px;
+list-style-type: none;
+}
+.menu li a {
+color: #f5f5f5;
+font-size: 14px;
+}
+
+.titre{
+margin-bottom: 50%;
+}
+.logo a{
+  color: #1a1919;
+  padding: 0px 20px;
+  border: 1px solid #000000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  }
+  .logo a:hover{
+      background: #201e20;
+      color: #ddc3a5;
+      
+      }
+ul{
+list-style: none;
+float: right;
+display: flex;
+margin-top: 20px;
+}
+ul li a{
+text-decoration: none;
+color: #201e20;
+padding-left: 10px 20px;
+text-transform: capitalize;
+text-decoration: none;
+border: 1px solid transparent;
+margin: 10px;
+font-weight: 500;
+transition: 0,9s ease;
+}
+ul li  a:hover{
+background: #201e20;
+color: #ddc3a5;
+}
+
+
+
+
+
+
+
+.dishes{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+}
+.dishes .dish{
+
+  height: 390px;
+  width: 25%;
+  background-color: #b3ad9d;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px#87857a;
+}
+.dishes .dish img{
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+
+}
+
+.dish h2{
+ 
+  font-size: 20px;
+  text-decoration: 0;
+  
+}
+
+
+.dishes .dish a{
+  border-radius: 6px;
+  margin-top: 10px; 
+  font-size: 14px;
+  text-decoration: 0;
+  background-color: #87857a;
+  padding: 5px 20px;
+  color: rgb(243, 240, 237);
+  
+}
+
+.btn {
+  display: block;
+  padding: 10px 40px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: #ff0000;
+  background:#cecbba;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn:visited {
+    transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    animation: gelatine 0.5s 1;
+}
+
+@keyframes gelatine {
+  
+  0%, 100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+
+
+
+

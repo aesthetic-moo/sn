@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100;200;400;500 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+ 
+}
+section{
+    margin-top: 50px;
+
+}
+body{
+    position: relative;
+
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    background-color: #ddc3a5;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20 50px;
+    background: #ddc3a5;
+    box-shadow: #000000;
+   
+}
+.menu2{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.menu2 li{
+    list-style: none;
+    padding: 0 20px;
+}
+.menu2 li a {
+    color: #000000;
+    font-size: 20px;
+    }
+    
+    .title{
+    margin-bottom: 50%;
+    }
+    .logo a{
+        color: #000000;
+        padding: 0px 20px;
+        border: 1px solid #000000;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px;
+        }
+        .logo a:hover{
+            background: #201e20;
+            color: #ddc3a5;
+            }
+    ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 18px;
+    }
+    ul li a{
+    text-decoration: none;
+    color: #0c0c0c;
+    padding-left: 10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,9s ease;
+    }
+    ul li  a:hover{
+        background: #201e20;
+        color: #ddc3a5;
+        }
+        
+        .elementor-button-text {
+        background-color:#ddc3a5;
+        border-radius: 0%;
+        }
+.elementor-button-text:hover{
+    background-color: #201e20;
+  }
+
+ 
